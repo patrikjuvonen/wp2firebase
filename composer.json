@@ -1,0 +1,43 @@
+{
+  "name": "patrikjuvonen/wp2firebase",
+  "version": "1.0.0",
+  "description": "Publish WP site to Firebase.",
+  "scripts": {
+    "post-update-cmd": "Google\\Task\\Composer::cleanup"
+  },
+  "keywords": [
+    "google",
+    "firebase",
+    "sync",
+    "ssg",
+    "static",
+    "site",
+    "generator",
+    "generation",
+    "publish",
+    "cache",
+    "caching"
+  ],
+  "homepage": "https://github.com/patrikjuvonen/wp2firebase",
+  "authors": [
+    {
+      "name": "Patrik Juvonen",
+      "email": "patrik.juvonen@gmail.com",
+      "homepage": "https://github.com/patrikjuvonen"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "readme": "readme.txt",
+  "time": "2021-02-01",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "google/apiclient": "^2.7",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "extra": {
+    "google/apiclient-services": [
+      "FirebaseHosting"
+    ]
+  }
+}
