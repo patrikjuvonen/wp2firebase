@@ -13,9 +13,10 @@
     ["@babel/plugin-proposal-class-properties", { "loose": false }],
     "@babel/plugin-proposal-json-strings",
 
-    "@babel/plugin-transform-react-jsx",
-    "babel-plugin-transform-object-rest-spread",
+    // Stage 4
+    "@babel/plugin-proposal-object-rest-spread",
 
+    "@babel/plugin-transform-react-jsx",
     "babel-plugin-styled-components"
   ],
   "presets": [
